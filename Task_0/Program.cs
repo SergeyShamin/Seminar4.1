@@ -3,9 +3,10 @@
 //4 в 16
 //3 в 9
 //7 в 49
+Console.Write ("Введите число: ");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
-int result = number + number;
+int result = number * number;
 
 Console.WriteLine (result);
