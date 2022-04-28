@@ -3,9 +3,14 @@
 4 в -4, -3, -2, -1, 0, 1, 2, 3, 4
 2 в -2, -1, 0, 1, 2
 */
+
 Console.WriteLine("Введите число: ");
-int number = Convert.ToInt32 (Console.ReadLine());
-for (int i = -number; i <- number; i++);
+int number = Convert.ToInt32(Console.ReadLine());
+for (int i = -number; i <= number; i++)
 {
-    Console.Write (i+", ");
+    Console.Write(i);
+    if (i != number)
+    {
+        Console.WriteLine(", ");
+    }
 }
